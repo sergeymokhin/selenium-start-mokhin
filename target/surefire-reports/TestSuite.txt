@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 0.764 sec <<< FAILURE! - in TestSuite
-init(ru.st.selenium.Login)  Time elapsed: 0.584 sec  <<< FAILURE!
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 0.806 sec <<< FAILURE! - in TestSuite
+init(ru.st.selenium.Login)  Time elapsed: 0.608 sec  <<< FAILURE!
 java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:197)
 	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:109)

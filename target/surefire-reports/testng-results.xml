@@ -2,32 +2,32 @@
 <testng-results skipped="3" failed="0" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Tests" duration-ms="193" started-at="2015-07-12T03:18:58Z" finished-at="2015-07-12T03:18:58Z">
+  <suite name="Tests" duration-ms="214" started-at="2015-07-12T03:23:49Z" finished-at="2015-07-12T03:23:50Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="193" started-at="2015-07-12T03:18:58Z" finished-at="2015-07-12T03:18:58Z">
+    <test name="Test1" duration-ms="214" started-at="2015-07-12T03:23:49Z" finished-at="2015-07-12T03:23:50Z">
       <class name="ru.st.selenium.AddMovie">
-        <test-method status="SKIP" signature="init()[pri:0, instance:ru.st.selenium.AddMovie@6442b0a6]" name="init" is-config="true" duration-ms="0" started-at="2015-07-12T09:18:58Z" finished-at="2015-07-12T09:18:58Z">
+        <test-method status="SKIP" signature="init()[pri:0, instance:ru.st.selenium.AddMovie@6442b0a6]" name="init" is-config="true" duration-ms="0" started-at="2015-07-12T09:23:50Z" finished-at="2015-07-12T09:23:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="SKIP" signature="testAddMovie()[pri:0, instance:ru.st.selenium.AddMovie@6442b0a6]" name="testAddMovie" duration-ms="0" started-at="2015-07-12T09:18:58Z" finished-at="2015-07-12T09:18:58Z">
+        <test-method status="SKIP" signature="testAddMovie()[pri:0, instance:ru.st.selenium.AddMovie@6442b0a6]" name="testAddMovie" duration-ms="0" started-at="2015-07-12T09:23:50Z" finished-at="2015-07-12T09:23:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddMovie -->
       </class> <!-- ru.st.selenium.AddMovie -->
       <class name="ru.st.selenium.RemoveAndLogout">
-        <test-method status="SKIP" signature="init()[pri:0, instance:ru.st.selenium.RemoveAndLogout@4411d970]" name="init" is-config="true" duration-ms="0" started-at="2015-07-12T09:18:58Z" finished-at="2015-07-12T09:18:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="SKIP" signature="testRemoveAndLogout()[pri:0, instance:ru.st.selenium.RemoveAndLogout@4411d970]" name="testRemoveAndLogout" duration-ms="0" started-at="2015-07-12T09:18:58Z" finished-at="2015-07-12T09:18:58Z">
+        <test-method status="SKIP" signature="testRemoveAndLogout()[pri:0, instance:ru.st.selenium.RemoveAndLogout@4411d970]" name="testRemoveAndLogout" duration-ms="2" started-at="2015-07-12T09:23:50Z" finished-at="2015-07-12T09:23:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRemoveAndLogout -->
+        <test-method status="SKIP" signature="init()[pri:0, instance:ru.st.selenium.RemoveAndLogout@4411d970]" name="init" is-config="true" duration-ms="0" started-at="2015-07-12T09:23:50Z" finished-at="2015-07-12T09:23:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
       </class> <!-- ru.st.selenium.RemoveAndLogout -->
       <class name="ru.st.selenium.Login">
-        <test-method status="FAIL" signature="init()[pri:0, instance:ru.st.selenium.Login@5b464ce8]" name="init" is-config="true" duration-ms="0" started-at="2015-07-12T09:18:58Z" finished-at="2015-07-12T09:18:58Z">
+        <test-method status="FAIL" signature="init()[pri:0, instance:ru.st.selenium.Login@5b464ce8]" name="init" is-config="true" duration-ms="0" started-at="2015-07-12T09:23:49Z" finished-at="2015-07-12T09:23:49Z">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html]]>
@@ -81,11 +81,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="SKIP" signature="testLogin()[pri:0, instance:ru.st.selenium.Login@5b464ce8]" name="testLogin" duration-ms="1" started-at="2015-07-12T09:18:58Z" finished-at="2015-07-12T09:18:58Z">
+        <test-method status="SKIP" signature="testLogin()[pri:0, instance:ru.st.selenium.Login@5b464ce8]" name="testLogin" duration-ms="1" started-at="2015-07-12T09:23:50Z" finished-at="2015-07-12T09:23:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:ru.st.selenium.Login@5b464ce8]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-07-12T09:18:58Z" finished-at="2015-07-12T09:18:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ru.st.selenium.Login@5b464ce8]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-07-12T09:23:50Z" finished-at="2015-07-12T09:23:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
