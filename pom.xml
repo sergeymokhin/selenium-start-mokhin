@@ -77,7 +77,7 @@
       </activation>
     </profile>
     <profile>
-      <id>dev</id>
+      <id>chrome</id>
       <properties>
         <env>chrome</env>
         <user.username></user.username>
