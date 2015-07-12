@@ -63,7 +63,7 @@
     <profile>
       <id>local</id>
       <properties>
-        <env>local</env>
+        <env>firefox</env>
         <user.username></user.username>
         <user.password></user.password>
         <grid2.hub></grid2.hub>
@@ -79,25 +79,25 @@
     <profile>
       <id>dev</id>
       <properties>
-        <env>dev</env>
+        <env>chrome</env>
         <user.username></user.username>
         <user.password></user.password>
         <grid2.hub></grid2.hub>
-        <site.url>http://devhost/</site.url>
-        <browser.name>firefox</browser.name>
+        <site.url>http://localhost/</site.url>
+        <browser.name>googlechrome</browser.name>
         <browser.version></browser.version>
         <browser.platform></browser.platform>
       </properties>
     </profile>
     <profile>
-      <id>test</id>
+      <id>safari</id>
       <properties>
         <env>test</env>
         <user.username></user.username>
         <user.password></user.password>
         <grid2.hub></grid2.hub>
-        <site.url>http://testhost/</site.url>
-        <browser.name>firefox</browser.name>
+        <site.url>http://localhost/</site.url>
+        <browser.name>safari</browser.name>
         <browser.version></browser.version>
         <browser.platform></browser.platform>
       </properties>
